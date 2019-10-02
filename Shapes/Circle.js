@@ -38,7 +38,6 @@ export default class Circle extends Component {
       radius - strokeWidth / 2,
       direction
     );
-    console.log(path);
     return (
       <Shape
         d={path}
